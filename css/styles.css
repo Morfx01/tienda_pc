@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+.navBackground {
+	background-color: rgb(255,198, 198);
+	position: sticky;
+	top: 0px;
+}
+.navBackground img {
+	padding: 20px;
+}
+nav {
+	position: relative;
+	bottom: 90px;
+	left: 300px;
+}
+ul {
+    list-style: none;
+    font-size:0;
+ }
+ li {
+    display: inline-block;
+    width: 15%;
+    position:relative;
+    font-size: 2rem;
+ }
+ ul ul {
+    position: relative;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+    width:150px;
+    padding: 10px;
+ }
+ ul ul li a {
+   color: black;
+}
+ ul li:hover ul {
+     position: absolute;
+    display:block;
+    background-color: rgb(255, 198, 198);
+ }
+ .tabla_inicio {
+   font-family: Inter;
+   font-size: 4rem;
+ }
+ .cuadradoGris{
+	width: 1000px;
+	height: 500px;
+	background-color: rgb(217, 217, 217);
+	position: relative;
+	
+}
+.productoDestacado {
+   background-image: url(../assets/img/Fondo.jpg);
+   height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 50px 30px;
+	margin-bottom:50px;
+
+}
+.productoDestacado h4 {
+	font-size: 4rem; 
+	text-align: left; 
+	background-color: rgba(255,255,255, 0.7);
+	padding-top: 20px;
+	margin-top: 50px;
+}
+.productoDestacado td {
+	font-size: 2.5rem; 
+	text-align: justify; 
+	background-color: rgba(255,255,255, 0.7);
+	text-transform: capitalize;
+	padding: 10px
+   }
+.intel {
+   background-image: url(../assets/img/intel\ i7.jpg)
+}
